@@ -311,7 +311,7 @@ export default function HomePage() {
         {/* FAQ Section */}
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16 bg-black">
           <div className="max-w-[1280px] mx-auto">
-            <h2 className="text-xl sm:text-3xl font-bold text-white mb-3 text-left">
+            <h2 className="text-xl sm:text-4xl font-bold text-white mb-3 text-left">
               FAQ
             </h2>
             <p className="text-sm sm:text-3xl font-bold mb-5 text-left border-b border-white/50 pb-10">
