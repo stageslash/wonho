@@ -162,7 +162,7 @@ export default function HomePage() {
             </h2>
             <div className="flex flex-col gap-4">
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -174,7 +174,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -186,7 +186,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -198,7 +198,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -210,7 +210,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -222,7 +222,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -234,7 +234,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -246,7 +246,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -258,7 +258,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -270,7 +270,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -282,7 +282,7 @@ export default function HomePage() {
                 />
               </a>
               <a
-                href="https://example.com/tickets/toronto"
+                href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
@@ -334,7 +334,7 @@ export default function HomePage() {
                       ›
                     </span>
                   </summary>
-                  <p className="mt-3 text-xs sm:text-2xl text-gray-400 leading-relaxed">
+                  <p className="mt-3 text-xs sm:text-2xl text-white leading-relaxed">
                     {item.answer}
                   </p>
                 </details>
