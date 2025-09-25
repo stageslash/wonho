@@ -346,8 +346,8 @@ export default function HomePage() {
         {/* Bottom Content Block */}
         <section className="w-full px-5 py-5">
           <div className="max-w-[1280px] mx-auto">
-            <div className="bg-[#00ff88] text-black py-24 sm:py-48 px-5 sm:px-10 text-center text-base sm:text-xl">
-              상세페이지 이미지로 대체
+            <div className="bg-white text-black py-24 sm:py-48 px-5 sm:px-10 text-center text-base sm:text-xl">
+              이미지
             </div>
           </div>
         </section>
