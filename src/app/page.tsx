@@ -1,3 +1,5 @@
+// SVG 파일을 React 컴포넌트처럼 import
+import ArrowIcon from "/public/icons/arrow.svg";
 export default function HomePage() {
   const tourDates = [
     { date: "NOV 14, 2025", venue: "Queen Elizabeth Theatre (Toronto)" },
@@ -79,7 +81,7 @@ export default function HomePage() {
           <img
             src="/stageslash_logo.png"
             alt="Logo"
-            className="w-[120px] sm:w-[150px] h-auto"
+            className="w-[120px] sm:w-[180px] h-auto"
           />
         </div>
       </header>
@@ -103,7 +105,7 @@ export default function HomePage() {
 
         {/* Hero Section with Poster and Tour Dates */}
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16">
-          <div className="max-w-[1280px] mx-auto">
+          <div className="max-w-[860px] mx-auto">
             {/* Title - Hidden on mobile, shown on desktop */}
             <h1 className="hidden sm:block text-2xl sm:text-5xl font-bold leading-tight sm:leading-[60px] mb-8 text-left">
               2025 WONHO WORLD TOUR
@@ -112,18 +114,18 @@ export default function HomePage() {
             </h1>
 
             {/* Poster and Tour Dates Container - Side by side on desktop, stacked on mobile */}
-            <div className="flex flex-col sm:flex-row sm:gap-10 sm:items-start">
-              {/* Poster Image - Full width on mobile */}
-              <div className="mb-8 sm:mb-0 sm:flex-shrink-0">
+            <div className="flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 sm:items-start">
+              {/* Poster Image - Full width on mobile, 50% on desktop */}
+              <div className="mb-8 sm:mb-0">
                 <img
                   src="/images/poster/wonho-poster.png"
                   alt="WONHO World Tour Poster"
-                  className="w-full sm:max-w-[606px] h-auto"
+                  className="w-full h-auto"
                 />
               </div>
 
-              {/* Tour Dates */}
-              <div className="flex-1">
+              {/* Tour Dates - 50% on desktop */}
+              <div>
                 {/* Title - Shown on mobile after poster, hidden on desktop */}
                 <h1 className="block sm:hidden text-2xl font-bold leading-tight mb-8 text-left">
                   2025 WONHO WORLD TOUR
@@ -140,10 +142,10 @@ export default function HomePage() {
                           : ""
                       }`}
                     >
-                      <span className="text-white font-bold text-2xl">
+                      <span className="text-white font-bold text-base">
                         {show.date}
                       </span>
-                      <span className="text-right text-white text-2xl">
+                      <span className="text-right text-white text-base">
                         {show.venue}
                       </span>
                     </div>
@@ -156,8 +158,8 @@ export default function HomePage() {
 
         {/* Ticket Buttons */}
         <section className="w-full px-5 py-8 sm:px-10 sm:py-12">
-          <div className="max-w-[1280px] mx-auto text-center">
-            <h2 className="text-sm sm:text-4xl font-bold text-white mb-5 sm:mb-8">
+          <div className="max-w-[860px] mx-auto text-center">
+            <h2 className="text-xl sm:text-3xl font-bold text-white mb-5 sm:mb-8">
               TICKETS AVAILABLE ON OCT 8TH @10 AM LOCAL TIME
             </h2>
             <div className="flex flex-col gap-4">
@@ -299,7 +301,7 @@ export default function HomePage() {
 
         {/* Large Content Block */}
         <section className="w-full px-5 py-5">
-          <div className="max-w-[1280px] mx-auto">
+          <div className="max-w-[860px] mx-auto">
             <img
               src="/images/price-banner/detail-price.png"
               alt="Detail Price"
@@ -310,11 +312,11 @@ export default function HomePage() {
 
         {/* FAQ Section */}
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16 bg-black">
-          <div className="max-w-[1280px] mx-auto">
-            <h2 className="text-xl sm:text-4xl font-bold text-white mb-3 text-left">
+          <div className="max-w-[860px] mx-auto">
+            <h2 className="text-2xl sm:text-4xl font-bold text-white mb-3 text-left">
               FAQ
             </h2>
-            <p className="text-sm sm:text-3xl font-bold mb-5 text-left border-b border-white/50 pb-10">
+            <p className="text-2xl sm:text-3xl font-bold mb-5 text-left border-b border-white/50 pb-10">
               2025 WONHO WORLD TOUR: &lt;STAY AWAKE&gt;
             </p>
 
@@ -328,13 +330,18 @@ export default function HomePage() {
                       : "border-b border-gray-800"
                   } pb-4 text-left group`}
                 >
-                  <summary className="text-sm sm:text-3xl font-bold cursor-pointer list-none relative py-1 pr-6">
+                  <summary className="text-xl sm:text-3xl font-bold cursor-pointer list-none relative py-1 pr-6">
                     {item.question}
-                    <span className="absolute right-0 top-1/2 -translate-y-1/2 text-[#3349a8] text-6xl font-light group-open:-rotate-90 transition-transform inline-block rotate-90">
-                      ›
-                    </span>
+                    {/* <span className="absolute right-0 top-1/2 -translate-y-1/2 text-[#3349a8] text-6xl font-light group-open:-rotate-90 transition-transform inline-block rotate-90"> */}
+                    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-6 h-6 group-open:-rotate-180 transition-transform">
+                      <img
+                        src="/icons/arrow.svg"
+                        alt="arrow"
+                        className="w-full h-full"
+                      />
+                    </div>
                   </summary>
-                  <p className="mt-3 text-xs sm:text-2xl text-white leading-relaxed">
+                  <p className="mt-3 text-lg sm:text-2xl text-gray-300 leading-relaxed">
                     {item.answer}
                   </p>
                 </details>
@@ -345,7 +352,7 @@ export default function HomePage() {
 
         {/* Bottom Content Block */}
         <section className="w-full px-5 py-5">
-          <div className="max-w-[1280px] mx-auto">
+          <div className="max-w-[860px] mx-auto">
             <div className="bg-white text-black py-24 sm:py-48 px-5 sm:px-10 text-center text-base sm:text-xl">
               이미지
             </div>

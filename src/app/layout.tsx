@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "2025 WONHO WORLD TOUR",
   description: "<STAY AWAKE>: North America",
+  icons: {
+    icon: "/favicon.png", // public 폴더에 favicon.png 파일 추가
+    apple: "/apple-icon.png", // 선택사항: Apple 기기용
+  },
 };
 
 export default function RootLayout({
