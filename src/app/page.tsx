@@ -214,138 +214,138 @@ export default function HomePage() {
               TICKETS AVAILABLE ON OCT 8TH @10 AM LOCAL TIME
             </h2>
             <div className="flex flex-col gap-4">
+              {/* <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              > */}
+              <img
+                src="/images/city-banner/01_toronto_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a> */}
+              {/* <a
+                href="https://google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              > */}
+              <img
+                src="/images/city-banner/02_newyork_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/01_toronto_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/03_washington_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/02_newyork_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/04_chicago_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/03_washington_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/05_atlanta_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/04_chicago_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/06_miami_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/05_atlanta_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/07_houston_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/06_miami_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/08_dallas_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/07_houston_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/09_sf_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/08_dallas_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/10_la_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a>
               <a
                 href="https://google.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"
-              >
-                <img
-                  src="/images/city-banner/09_sf_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <img
-                  src="/images/city-banner/10_la_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <img
-                  src="/images/city-banner/11_seattle_BK.png"
-                  alt="Buy Tickets Toronto"
-                  className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-                />
-              </a>
+              > */}
+              <img
+                src="/images/city-banner/11_seattle_BK.png"
+                alt="Buy Tickets Toronto"
+                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+              />
+              {/* </a> */}
             </div>
           </div>
         </section>
