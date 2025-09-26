@@ -1,9 +1,22 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
 // SVG 파일을 React 컴포넌트처럼 import
 // import ArrowIcon from "/public/icons/arrow.svg";
 
 export default function HomePage() {
+  const [showIframe, setShowIframe] = useState(false);
+
+  useEffect(() => {
+    // 1초 후에 iframe 표시
+    const timer = setTimeout(() => {
+      setShowIframe(true);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const tourDates = [
     { date: "NOV 14, 2025", venue: "Queen Elizabeth Theatre (Toronto)" },
     { date: "NOV 16, 2025", venue: "Terminal 5 (New York)" },
@@ -148,15 +161,21 @@ export default function HomePage() {
           <div className="max-w-[860px] mx-auto">
             {/* 디버깅용 배경 */}
             <div className="relative bg-black-300 rounded-lg overflow-hidden">
-              <iframe
-                id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
-                frameBorder="0"
-                scrolling="no"
-                allow="web-share; encrypted-media"
-                allowTransparency={true}
-                style={{ width: "1px", minWidth: "100%", maxWidth: "1000px" }}
-                src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=dark"
-              />
+              {showIframe ? (
+                <iframe
+                  id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="web-share; encrypted-media"
+                  allowTransparency={true}
+                  style={{ width: "1px", minWidth: "100%", maxWidth: "1000px" }}
+                  src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=dark"
+                />
+              ) : (
+                <div className="flex items-center justify-center h-[400px] text-gray-500">
+                  <p>Loading...</p>
+                </div>
+              )}
             </div>
           </div>
         </section>
