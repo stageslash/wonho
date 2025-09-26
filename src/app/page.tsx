@@ -88,21 +88,6 @@ export default function HomePage() {
 
       {/* Main Content - All Centered */}
       <main className="flex flex-col items-center">
-        {/* Laylo Embed - 최상단 */}
-        {/* <section className="w-full px-5 py-10">
-          <div className="max-w-[1000px] mx-auto">
-            <iframe
-              id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
-              frameBorder="0"
-              scrolling="no"
-              allow="web-share"
-              allowTransparency={true}
-              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
-              src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=light"
-            />
-          </div>
-        </section> */}
-
         {/* Hero Section with Poster and Tour Dates */}
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16">
           <div className="max-w-[860px] mx-auto">
@@ -155,7 +140,20 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
+        {/* Laylo Embed - 최상단 */}
+        <section className="w-full px-5 py-10">
+          <div className="max-w-[860px] mx-auto">
+            <iframe
+              id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
+              frameBorder="0"
+              scrolling="no"
+              allow="web-share"
+              allowTransparency={true}
+              style={{ width: "1px", minWidth: "100%", maxWidth: "1000px" }}
+              src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=light"
+            />
+          </div>
+        </section>
         {/* Ticket Buttons */}
         <section className="w-full px-5 py-8 sm:px-10 sm:py-12">
           <div className="max-w-[860px] mx-auto text-center">
