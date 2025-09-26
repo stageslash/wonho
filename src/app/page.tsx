@@ -311,10 +311,10 @@ export default function HomePage() {
         {/* FAQ Section */}
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16 bg-black">
           <div className="max-w-[860px] mx-auto">
-            <h2 className="text-2xl sm:text-4xl font-bold text-white mb-3 text-left">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 text-left">
               FAQ
             </h2>
-            <p className="text-2xl sm:text-3xl font-bold mb-5 text-left border-b border-white/50 pb-10">
+            <p className="text-xl sm:text-2xl font-bold mb-5 text-left border-b border-white/50 pb-10">
               2025 WONHO WORLD TOUR: &lt;STAY AWAKE&gt;
             </p>
 
@@ -328,7 +328,7 @@ export default function HomePage() {
                       : "border-b border-gray-800"
                   } pb-4 text-left group`}
                 >
-                  <summary className="text-xl sm:text-3xl font-bold cursor-pointer list-none relative py-1 pr-6">
+                  <summary className="text-xl sm:text-2xl font-bold cursor-pointer list-none relative py-1 pr-6">
                     {item.question}
                     {/* <span className="absolute right-0 top-1/2 -translate-y-1/2 text-[#3349a8] text-6xl font-light group-open:-rotate-90 transition-transform inline-block rotate-90"> */}
                     <div className="absolute right-0 top-1/2 -translate-y-1/2 w-6 h-6 group-open:-rotate-180 transition-transform">
@@ -339,7 +339,7 @@ export default function HomePage() {
                       />
                     </div>
                   </summary>
-                  <p className="mt-3 text-lg sm:text-2xl text-gray-300 leading-relaxed">
+                  <p className="mt-3 text-lg sm:text-xl text-gray-300 leading-relaxed">
                     {item.answer}
                   </p>
                 </details>
