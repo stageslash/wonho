@@ -168,7 +168,12 @@ export default function HomePage() {
                   scrolling="no"
                   allow="web-share; encrypted-media"
                   allowTransparency={true}
-                  style={{ width: "1px", minWidth: "100%", maxWidth: "1000px" }}
+                  style={{
+                    width: "1px",
+                    minWidth: "100%",
+                    maxWidth: "1000px",
+                    minHeight: "400px",
+                  }}
                   src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=dark"
                 />
               ) : (

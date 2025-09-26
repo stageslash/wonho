@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <Script
           src="https://embed.laylo.com/laylo-sdk.js"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
         {children}
       </body>
