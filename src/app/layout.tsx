@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // title: "2025 WONHO WORLD TOUR",
-  // description: "<STAY AWAKE>: North America",
-  title: "Coming Soon",
-  description: "Coming Soon",
+  title: "2025 WONHO WORLD TOUR",
+  description: "<STAY AWAKE>: North America",
+  // title: "Coming Soon",
+  // description: "Coming Soon",
   icons: {
     icon: "/favicon.png", // public 폴더에 favicon.png 파일 추가
     apple: "/apple-icon.png", // 선택사항: Apple 기기용
@@ -43,3 +43,6 @@ export default function RootLayout({
     </html>
   );
 }
+
+// 1. Metadata 수정하고
+// 2. vercel.json 내용 없애기
