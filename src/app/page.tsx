@@ -402,13 +402,13 @@ export default function HomePage() {
         </section>
 
         {/* Bottom Content Block */}
-        <section className="w-full px-5 py-5">
+        {/* <section className="w-full px-5 py-5">
           <div className="max-w-[860px] mx-auto">
             <div className="bg-white text-black py-24 sm:py-48 px-5 sm:px-10 text-center text-base sm:text-xl">
               이미지
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   );
