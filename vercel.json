@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/((?!coming-soon).*)",
+      "source": "/((?!api/|_next/static/|favicon.ico|coming-soon|.*\\.).*)",
       "destination": "/coming-soon",
       "permanent": false
     }
