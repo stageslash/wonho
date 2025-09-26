@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 
 export default function HomePage() {
   const [showIframe, setShowIframe] = useState(false);
+  const [showPosterModal, setShowPosterModal] = useState(false);
 
   useEffect(() => {
     // 1초 후에 iframe 표시
@@ -91,6 +92,27 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      {/* Poster Modal */}
+      {showPosterModal && (
+        <div
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={() => setShowPosterModal(false)}
+        >
+          <img
+            src="/images/poster/wonho-poster.png"
+            alt="WONHO World Tour Poster"
+            className="max-w-full max-h-full object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+          <button
+            className="absolute top-4 right-4 text-white text-4xl hover:text-gray-300"
+            onClick={() => setShowPosterModal(false)}
+          >
+            ×
+          </button>
+        </div>
+      )}
+
       {/* Header with Logo */}
       <header className="p-5 sm:p-8 bg-black">
         <div className="text-left">
@@ -121,7 +143,8 @@ export default function HomePage() {
                 <img
                   src="/images/poster/wonho-poster.png"
                   alt="WONHO World Tour Poster"
-                  className="w-full h-auto"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  onClick={() => setShowPosterModal(true)}
                 />
               </div>
 
