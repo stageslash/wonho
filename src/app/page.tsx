@@ -159,7 +159,7 @@ export default function HomePage() {
         {/* Ticket Buttons */}
         <section className="w-full px-5 py-8 sm:px-10 sm:py-12">
           <div className="max-w-[860px] mx-auto text-center">
-            <h2 className="text-xl sm:text-3xl font-bold text-white mb-5 sm:mb-8">
+            <h2 className="text-xl sm:text-3xl font-bold text-white mb-8 sm:mb-12">
               TICKETS AVAILABLE ON OCT 8TH @10 AM LOCAL TIME
             </h2>
             <div className="flex flex-col gap-4">
