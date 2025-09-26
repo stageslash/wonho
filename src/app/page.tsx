@@ -1,5 +1,8 @@
+"use client";
+
 // SVG 파일을 React 컴포넌트처럼 import
-import ArrowIcon from "/public/icons/arrow.svg";
+// import ArrowIcon from "/public/icons/arrow.svg";
+
 export default function HomePage() {
   const tourDates = [
     { date: "NOV 14, 2025", venue: "Queen Elizabeth Theatre (Toronto)" },
@@ -143,15 +146,18 @@ export default function HomePage() {
         {/* Laylo Embed - 최상단 */}
         <section className="w-full px-5 py-10">
           <div className="max-w-[860px] mx-auto">
-            <iframe
-              id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
-              frameBorder="0"
-              scrolling="no"
-              allow="web-share"
-              allowTransparency={true}
-              style={{ width: "1px", minWidth: "100%", maxWidth: "1000px" }}
-              src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=light"
-            />
+            {/* 디버깅용 배경 */}
+            <div className="relative bg-black-300 rounded-lg overflow-hidden">
+              <iframe
+                id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
+                frameBorder="0"
+                scrolling="no"
+                allow="web-share"
+                allowTransparency={true}
+                style={{ width: "1px", minWidth: "100%", maxWidth: "1000px" }}
+                src="https://embed.laylo.com?dropId=fcb044de-0458-4401-ad98-ebce78b190b9&color=2c63ff&minimal=false&theme=dark"
+              />
+            </div>
           </div>
         </section>
         {/* Ticket Buttons */}
