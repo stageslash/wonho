@@ -32,6 +32,64 @@ export default function HomePage() {
     { date: "DEC 04, 2025", venue: "Showbox Sodo (Seattle)" },
   ];
 
+  const cityBanners = [
+    {
+      url: "https://admitone.com/events/wonho-toronto-132856",
+      img_src: "/images/city-banner/01_toronto_BK.png",
+      alt: "Buy Tickets Toronto",
+    },
+    {
+      url: "https://www.axs.com/events/1150096/2025-wonho-world-tour-stay-awake-in-north-america-tickets?skin=terminal5",
+      img_src: "/images/city-banner/02_newyork_BK.png",
+      alt: "Buy Tickets New York",
+    },
+    {
+      url: "https://www.ticketmaster.com/event/150063421BD69A21",
+      img_src: "/images/city-banner/03_washington_BK.png",
+      alt: "Buy Tickets Washington",
+    },
+    {
+      url: "https://www.etix.com/ticket/p/67239596/2025-wonho-world-tour-chicago-copernicus-center",
+      img_src: "/images/city-banner/04_chicago_BK.png",
+      alt: "Buy Tickets Chicago",
+    },
+    {
+      url: "https://www.axs.com/events/1150426/2025-wonho-world-tour-stay-awake-in-north-america-tickets",
+      img_src: "/images/city-banner/05_atlanta_BK.png",
+      alt: "Buy Tickets Atlanta",
+    },
+    {
+      url: "https://link.dice.fm/Qc9a20173efa",
+      img_src: "/images/city-banner/06_miami_BK.png",
+      alt: "Buy Tickets Miami",
+    },
+    {
+      url: "https://wl.eventim.us/event/won-ho/665973?afflky=RiseRooftop",
+      img_src: "/images/city-banner/07_houston_BK.png",
+      alt: "Buy Tickets Houston",
+    },
+    {
+      url: "https://www.axs.com/events/1152526/wonho-tickets",
+      img_src: "/images/city-banner/08_dallas_BK.png",
+      alt: "Buy Tickets Dallas",
+    },
+    {
+      url: "https://www.axs.com/events/1160280/wonho-tickets",
+      img_src: "/images/city-banner/09_sf_BK.png",
+      alt: "Buy Tickets San Francisco",
+    },
+    {
+      url: "https://www.axs.com/events/1160112/wonho-tickets",
+      img_src: "/images/city-banner/10_la_BK.png",
+      alt: "Buy Tickets Los Angeles",
+    },
+    {
+      url: "https://www.axs.com/events/1159641/wonho-tickets?skin=showboxpresents",
+      img_src: "/images/city-banner/11_seattle_BK.png",
+      alt: "Buy Tickets Seattle",
+    },
+  ];
+
   const faqItems = [
     {
       question: "When do tickets go on sale?",
@@ -214,138 +272,21 @@ export default function HomePage() {
               TICKETS AVAILABLE ON OCT 8TH @10 AM LOCAL TIME
             </h2>
             <div className="flex flex-col gap-4">
-              {/* <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/01_toronto_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a> */}
-              {/* <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/02_newyork_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/03_washington_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/04_chicago_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/05_atlanta_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/06_miami_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/07_houston_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/08_dallas_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/09_sf_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/10_la_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a>
-              <a
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              > */}
-              <img
-                src="/images/city-banner/11_seattle_BK.png"
-                alt="Buy Tickets Toronto"
-                className="w-full hover:opacity-80 transition-opacity cursor-pointer"
-              />
-              {/* </a> */}
+              {cityBanners.map((banner, index) => (
+                <a
+                  key={index}
+                  href={banner.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img
+                    src={banner.img_src}
+                    alt={banner.alt}
+                    className="w-full hover:opacity-80 transition-opacity cursor-pointer"
+                  />
+                </a>
+              ))}
             </div>
           </div>
         </section>
