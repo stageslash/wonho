@@ -295,7 +295,7 @@ export default function HomePage() {
         <section className="w-full px-5 py-5 mb-10">
           <div className="max-w-[860px] mx-auto">
             <img
-              src="/images/price-banner/detail-price.png"
+              src="/images/price-banner/detail-price-01.png"
               alt="Detail Price"
               className="w-full h-auto"
             />
@@ -322,7 +322,7 @@ export default function HomePage() {
               className="block"
             >
               <img
-                src="/images/poster/goods.png"
+                src="/images/poster/goods-01.png"
                 alt="Detail Price"
                 className="w-full h-auto hover:opacity-90 transition-opacity cursor-pointer"
               />
