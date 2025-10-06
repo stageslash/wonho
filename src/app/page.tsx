@@ -306,7 +306,7 @@ export default function HomePage() {
         <section className="w-full px-5 py-5">
           <div className="max-w-[860px] mx-auto">
             <a
-              href="https://wonhomerch.shop/"
+              href="https://wonho.store/"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
@@ -316,7 +316,7 @@ export default function HomePage() {
               </h2>
             </a>
             <a
-              href="https://wonhomerch.shop/"
+              href="https://wonho.store/"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
