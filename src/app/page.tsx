@@ -99,7 +99,7 @@ export default function HomePage() {
     {
       question: "How do I access the presale?",
       answer:
-        "Fans must sign up through the official presale form [LINK TO HOME PAGE]. You’ll receive a unique presale code via email before presale opens.",
+        "Fans must sign up through the official presale form. You’ll receive a unique presale code via email before presale opens.",
     },
     {
       question: "Is there a ticket limit per person?",
@@ -188,7 +188,7 @@ export default function HomePage() {
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16">
           <div className="max-w-[860px] mx-auto">
             {/* Title - Hidden on mobile, shown on desktop */}
-            <h1 className="hidden sm:block text-2xl sm:text-5xl font-bold leading-tight sm:leading-[60px] mb-8 text-left">
+            <h1 className="hidden sm:block text-2xl sm:text-5xl font-bold leading-tight sm:leading-[60px] mb-8 text-center">
               2025 WONHO WORLD TOUR
               <br />
               &lt;STAY AWAKE&gt;: North America
@@ -209,7 +209,7 @@ export default function HomePage() {
               {/* Tour Dates - 50% on desktop */}
               <div>
                 {/* Title - Shown on mobile after poster, hidden on desktop */}
-                <h1 className="block sm:hidden text-2xl font-bold leading-tight mb-8 text-left">
+                <h1 className="block sm:hidden text-2xl font-bold leading-tight mb-8 text-center">
                   2025 WONHO WORLD TOUR
                   <br />
                   &lt;STAY AWAKE&gt;: North America
@@ -292,7 +292,7 @@ export default function HomePage() {
         </section>
 
         {/* Large Content Block */}
-        <section className="w-full px-5 py-5">
+        <section className="w-full px-5 py-5 mb-10">
           <div className="max-w-[860px] mx-auto">
             <img
               src="/images/price-banner/detail-price.png"
@@ -302,13 +302,41 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Goods Section */}
+        <section className="w-full px-5 py-5">
+          <div className="max-w-[860px] mx-auto">
+            <a
+              href="https://wonhomerch.shop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center hover:text-gray-300 transition-colors cursor-pointer">
+                SHOP FOR MERCH
+              </h2>
+            </a>
+            <a
+              href="https://wonhomerch.shop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <img
+                src="/images/poster/goods.png"
+                alt="Detail Price"
+                className="w-full h-auto hover:opacity-90 transition-opacity cursor-pointer"
+              />
+            </a>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="w-full px-5 py-10 sm:px-10 sm:py-16 bg-black">
           <div className="max-w-[860px] mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 text-left">
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 text-center">
               FAQ
             </h2>
-            <p className="text-xl sm:text-2xl font-bold mb-5 text-left border-b border-white/50 pb-10">
+            <p className="text-xl sm:text-2xl font-bold mb-5 text-center border-b border-white/50 pb-10">
               2025 WONHO WORLD TOUR: &lt;STAY AWAKE&gt;
             </p>
 
