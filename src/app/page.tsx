@@ -238,10 +238,10 @@ export default function HomePage() {
           </div>
         </section>
         {/* Laylo Embed - 최상단 */}
-        <section className="w-full px-5 py-10">
-          <div className="max-w-[860px] mx-auto">
-            {/* 디버깅용 배경 */}
-            <div className="relative bg-black-300 rounded-lg overflow-hidden">
+        {/* <section className="w-full px-5 py-10">
+          <div className="max-w-[860px] mx-auto"> */}
+        {/* 디버깅용 배경 */}
+        {/* <div className="relative bg-black-300 rounded-lg overflow-hidden">
               {showIframe ? (
                 <iframe
                   id="laylo-drop-fcb044de-0458-4401-ad98-ebce78b190b9"
@@ -263,6 +263,34 @@ export default function HomePage() {
                 </div>
               )}
             </div>
+          </div>
+        </section> */}
+
+        {/* Goods Section */}
+        <section className="w-full px-5 py-5">
+          <div className="max-w-[860px] mx-auto">
+            <a
+              href="https://wonho.store/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center hover:text-gray-300 transition-colors cursor-pointer">
+                SHOP FOR MERCH
+              </h2>
+            </a>
+            <a
+              href="https://wonho.store/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <img
+                src="/images/poster/goods-02.png"
+                alt="Detail Price"
+                className="w-full h-auto hover:opacity-90 transition-opacity cursor-pointer"
+              />
+            </a>
           </div>
         </section>
         {/* Ticket Buttons */}
@@ -292,41 +320,13 @@ export default function HomePage() {
         </section>
 
         {/* Large Content Block */}
-        <section className="w-full px-5 py-5 mb-10">
+        <section className="w-full px-5 py-5">
           <div className="max-w-[860px] mx-auto">
             <img
               src="/images/price-banner/detail-price-02.png"
               alt="Detail Price"
               className="w-full h-auto"
             />
-          </div>
-        </section>
-
-        {/* Goods Section */}
-        <section className="w-full px-5 py-5">
-          <div className="max-w-[860px] mx-auto">
-            <a
-              href="https://wonho.store/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-8 text-center hover:text-gray-300 transition-colors cursor-pointer">
-                SHOP FOR MERCH
-              </h2>
-            </a>
-            <a
-              href="https://wonho.store/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <img
-                src="/images/poster/goods-02.png"
-                alt="Detail Price"
-                className="w-full h-auto hover:opacity-90 transition-opacity cursor-pointer"
-              />
-            </a>
           </div>
         </section>
 
